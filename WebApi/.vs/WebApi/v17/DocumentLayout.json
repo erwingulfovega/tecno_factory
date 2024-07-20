@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ErwinGulfo\\TecnoFactory\\WebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|c:\\erwingulfo\\tecnofactory\\webapi\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|solutionrelative:controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|c:\\erwingulfo\\tecnofactory\\webapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|c:\\erwingulfo\\tecnofactory\\webapi\\models\\logindb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|solutionrelative:models\\logindb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|c:\\erwingulfo\\tecnofactory\\webapi\\models\\usuariosdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|solutionrelative:models\\usuariosdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|c:\\erwingulfo\\tecnofactory\\webapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|c:\\erwingulfo\\tecnofactory\\webapi\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|c:\\erwingulfo\\tecnofactory\\webapi\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|solutionrelative:usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|c:\\erwingulfo\\tecnofactory\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "C:\\ErwinGulfo\\TecnoFactory\\WebApi\\Controllers\\TokenController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TokenController.cs",
+              "ToolTip": "C:\\ErwinGulfo\\TecnoFactory\\WebApi\\Controllers\\TokenController.cs",
+              "RelativeToolTip": "Controllers\\TokenController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T23:24:07.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "C:\\ErwinGulfo\\TecnoFactory\\WebApi\\Usuarios.cs",
+              "RelativeDocumentMoniker": "Usuarios.cs",
+              "ToolTip": "C:\\ErwinGulfo\\TecnoFactory\\WebApi\\Usuarios.cs",
+              "RelativeToolTip": "Usuarios.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T23:03:00.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginDB.cs",
+              "DocumentMoniker": "C:\\ErwinGulfo\\TecnoFactory\\WebApi\\Models\\LoginDB.cs",
+              "RelativeDocumentMoniker": "Models\\LoginDB.cs",
+              "ToolTip": "C:\\ErwinGulfo\\TecnoFactory\\WebApi\\Models\\LoginDB.cs",
+              "RelativeToolTip": "Models\\LoginDB.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAowDMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T22:53:28.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\ErwinGulfo\\TecnoFactory\\WebApi\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "C:\\ErwinGulfo\\TecnoFactory\\WebApi\\Login.cs",
+              "RelativeToolTip": "Login.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAzwAsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T22:52:02.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\ErwinGulfo\\TecnoFactory\\WebApi\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\ErwinGulfo\\TecnoFactory\\WebApi\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAowDEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T22:50:54.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuariosDB.cs",
+              "DocumentMoniker": "C:\\ErwinGulfo\\TecnoFactory\\WebApi\\Models\\UsuariosDB.cs",
+              "RelativeDocumentMoniker": "Models\\UsuariosDB.cs",
+              "ToolTip": "C:\\ErwinGulfo\\TecnoFactory\\WebApi\\Models\\UsuariosDB.cs",
+              "RelativeToolTip": "Models\\UsuariosDB.cs",
+              "ViewState": "AQIAAJgAAAAAAAAAAAAowKMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T20:18:45.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\ErwinGulfo\\TecnoFactory\\WebApi\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\ErwinGulfo\\TecnoFactory\\WebApi\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAkwCkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T17:57:17.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ErwinGulfo\\TecnoFactory\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\ErwinGulfo\\TecnoFactory\\WebApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAA4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T17:56:51.299Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
