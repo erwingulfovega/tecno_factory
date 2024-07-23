@@ -31,6 +31,7 @@ namespace WebApi.Controllers
                 var usuario = new UsuariosDB(Db);
                 Usuarios usuarios = new Usuarios();
                 var ObtenerUsuario = usuario.GetUserByUserName(body.Nombre_Usuario);
+                usuarios.Id= ObtenerUsuario.Id;
                 usuarios.Nombre_Usuario = ObtenerUsuario.Nombre_Usuario;
                 usuarios.DocumentoIdentidad = ObtenerUsuario.DocumentoIdentidad;
                 usuarios.Nombres = ObtenerUsuario.Nombres;

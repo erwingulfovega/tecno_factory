@@ -277,10 +277,12 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Clases\Comic.cs" />
+    <Compile Include="Clases\ComicsFavoritos.cs" />
     <Compile Include="Clases\JsonUser.cs" />
     <Compile Include="Clases\MarvelAPI.cs" />
     <Compile Include="Clases\RespuestaAPI.cs" />
     <Compile Include="Clases\Usuarios.cs" />
+    <Compile Include="Controllers\ComicsFavoritesController.cs" />
     <Compile Include="Controllers\ComicsController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
@@ -464,6 +466,7 @@
     <Content Include="Views\Login\_Login.cshtml" />
     <Content Include="Views\Comics\Index.cshtml" />
     <Content Include="Views\Comics\FavoriteComics.cshtml" />
+    <Content Include="Views\ComicsFavorites\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

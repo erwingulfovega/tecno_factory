@@ -5,8 +5,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>MDB Dashboard</title>
+    <title>.: TecnoFactory :.</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.22.0/mdb.min.js"></script>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
@@ -20,21 +22,21 @@
             <div class="container-fluid">
 
                 <!-- Brand -->
-                <a class="navbar-brand waves-effect" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
+                @*<a class="navbar-brand waves-effect" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
                     <strong class="blue-text">MDB</strong>
-                </a>
+                </a>*@
 
                 <!-- Collapse -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                @*<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
+                </button>*@
 
                 <!-- Links -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
                     <!-- Left -->
-                    <ul class="navbar-nav mr-auto">
+                    @*<ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
                             <a class="nav-link waves-effect" href="/Home/Index">
                                 Home
@@ -60,7 +62,7 @@
                                 tutorials
                             </a>
                         </li>
-                    </ul>
+                    </ul>*@
 
                     <!-- Right -->
                     <ul class="navbar-nav nav-flex-icons">
@@ -75,10 +77,12 @@
                             </a>
                         </li>*@
                         <li class="nav-item">
-                            <a href="/Login/LogOut" class="nav-link border border-light rounded waves-effect"
-                               target="">
-                                <i class="fas fa-sign-out-alt"></i>Cerrar Sesión
-                            </a>
+                            <div style="text-align:right">
+                                <a href="/Login/LogOut" class="nav-link border border-light rounded waves-effect"
+                                   target="">
+                                    <i class="fas fa-sign-out-alt"></i>Cerrar Sesión
+                                </a>
+                            </div>
                         </li>
                     </ul>
 
@@ -98,11 +102,11 @@
             <div class="list-group list-group-flush">
                 <a href="#" class="list-group-item active waves-effect" style="background-color: #ed1a23; border-color: #ed1a23 ">
                     @*<i class="fas fa-chart-pie mr-3"></i>*@
-                    <b>
+                    <strong>
                         <div style="text-align:center">
                             Hola, @ViewBag.username
                         </div>
-                    </b>
+                    </strong>
                 </a>
                 <a href="/Home/Index" class="list-group-item list-group-item-action waves-effect">
                     <i class="fas fa-home mr-3"></i>Inicio
@@ -110,8 +114,8 @@
                 <a href="/Comics/" class="list-group-item list-group-item-action waves-effect">
                     <i class="fas fa-table mr-3"></i>Comics Marvel
                 </a>
-                <a href="/Comics/FavoriteComics" class="list-group-item list-group-item-action waves-effect">
-                    <i class="fas fa-table mr-3"></i>Mis Comics
+                <a href="/ComicsFavorites/" class="list-group-item list-group-item-action waves-effect">
+                    <i class="fas fa-table mr-3"></i>Mis Comics Favoritos
                 </a>
                 @*<a href="/Home/Maps" class="list-group-item list-group-item-action waves-effect">
             <i class="fas fa-map mr-3"></i>Maps

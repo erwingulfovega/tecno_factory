@@ -40,6 +40,7 @@ namespace MDBinASP.NET.Controllers
             {
                 var session = HttpContext.Session;
                 var datos = JsonConvert.DeserializeObject<JsonUser>(resultado.objectResp.ToString());
+                session["idusuario"] = datos.Id;
                 session["username"] = datos.Nombre_Usuario;
                 session["nombres"]  = String.Concat(datos.Nombres," ", datos.Apellidos);
                 return RedirectToAction("Index", "Home");

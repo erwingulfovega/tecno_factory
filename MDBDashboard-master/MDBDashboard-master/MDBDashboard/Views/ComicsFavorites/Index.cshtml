@@ -23,19 +23,19 @@
                             <th>Thumbnails</th>
                             <th>Nombre</th>
                             <th>Detalles</th>
-                            <th>Agregar a Favoritos</th>
+                            <th>Favorito</th>
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach (var comics in ViewBag.ComicsList) // foreach (comics)
+                        @foreach (var comics in Model) // foreach (comics)
                         {
                             <tr>
                                 <th scope="row">
-                                    <img src="@(comics.Thumbnail.Path + "/portrait_xlarge." + comics.Thumbnail.Extension ?? "~/content/images/placeholder.jpg")" alt="@comics.Title" />
+                                    <img src="@(comics.Thumbnail.Path+"/portrait_xlarge."+comics.Thumbnail.Extension ?? "~/content/images/placeholder.jpg")" alt="@comics.Title" />
                                 </th>
                                 <td>@comics.Title</td>
                                 <td>
-                                    <strong>Descripción: </strong><br /> @(comics.Description != string.Empty ? comics.Description : "Sin descripción")<br />
+                                    <strong>Descripción: </strong><br /> @(comics.Description!=string.Empty ? comics.Description : "Sin descripción")<br />
                                     @foreach (var texobjetcs in comics.TextObjects) // foreach (textObjects)
                                     {
                                         <strong>Resumen:</strong><br /> @(texobjetcs.Text != string.Empty ? texobjetcs.Text : "Sin Resumen")<br />
@@ -53,26 +53,8 @@
                                     {
                                         @creators.Name <br />
                                     }
-                                    @{ bool favorite = true;}
-                                    @foreach (var favorites in ViewBag.FavoriteList)
-                                    {
-
-                                        if (comics.Id == favorites)
-                                        {
-                                            <strong>Favorito:</strong><br />
-                                            <i class="fa fa-heart fa-2x" aria-hidden="true" style="color: red"></i>
-                                            favorite = false;
-                                        }
-
-                                    }
                                 </td>
-                                <td>
-                                   @{ 
-                                    if (favorite) {
-                                    <a href="/Comics/MarcarComoFavorito/?IdComics=@comics.Id&IdUsuario=@ViewBag.IdUsuario"><i class="fa fa-heart fa-2x" aria-hidden="true" id="@comics.Id"></i></a>
-                                    }
-                                   }
-                                </td>
+                                <td><i class="fa fa-heart fa-2x" aria-hidden="true" id="@comics.Id" style="color: red"></i></td>
                             </tr>
                         }
                     </tbody>

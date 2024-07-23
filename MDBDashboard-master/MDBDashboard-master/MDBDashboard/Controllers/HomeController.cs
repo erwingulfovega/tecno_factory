@@ -12,7 +12,8 @@ namespace MDBinASP.NET.Controllers
         {
             if (Session["username"] != string.Empty && Session["username"]!=null)
             {
-                ViewBag.username = Session["username"];
+                ViewBag.username  = Session["username"];
+                ViewBag.idusuario = Session["idusuario"];
                 return View();
             }
             else

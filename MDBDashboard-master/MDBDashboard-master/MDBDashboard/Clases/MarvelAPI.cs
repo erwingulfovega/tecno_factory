@@ -16,9 +16,19 @@ namespace MDBinASP.NET.Clases
             public string Description { get; set; }
             public string ResourceURI { get; set; }
             public Url[] Urls { get; set; }
+            public TextObject[] TextObjects { get; set; }
             public Series Series { get; set; }
             public Image Thumbnail { get; set; }
+            public CreatorsContainer Creators { get; set; } // Added for creators
+            public CharactersContainer Characters { get; set; } // Added for characters (if available)
             // ... other properties (creators, characters, stories, etc.) based on your needs
+        }
+
+        public class TextObject
+        {
+            public string Type { get; set; }
+            public string Language { get; set; }
+            public string Text { get; set; }
         }
 
         public class Url
@@ -38,7 +48,36 @@ namespace MDBinASP.NET.Clases
             public string Path { get; set; }
             public string Extension { get; set; }
         }
+               
+        public class CreatorsContainer
+        {
+            public int Available { get; set; }
+            public string CollectionURI { get; set; }
+            public Creator[] Items { get; set; }
+            public int Returned { get; set; }
+        }
 
+        public class Creator
+        {
+            public string ResourceURI { get; set; }
+            public string Name { get; set; }
+            public string Role { get; set; }
+        }
+
+        public class CharactersContainer
+        {
+            public int Available { get; set; }
+            public string CollectionURI { get; set; }
+            public Character[] Items { get; set; }
+            public int Returned { get; set; }
+        }
+
+        public class Character
+        {
+            public string ResourceURI { get; set; }
+            public string Name { get; set; }
+        }
+               
         public class MarvelData
         {
             public int Offset { get; set; }

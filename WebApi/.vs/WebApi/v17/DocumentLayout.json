@@ -3,49 +3,70 @@
   "WorkspaceRootPath": "C:\\ErwinGulfo\\tecno_factory\\WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02AB1FA1-B725-428F-A828-B5E59CA40A82}|..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\MDBDashboard.csproj|c:\\erwingulfo\\tecno_factory\\mdbdashboard-master\\mdbdashboard-master\\mdbdashboard\\views\\comics\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02AB1FA1-B725-428F-A828-B5E59CA40A82}|..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\MDBDashboard.csproj|c:\\erwingulfo\\tecno_factory\\mdbdashboard-master\\mdbdashboard-master\\mdbdashboard\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{02AB1FA1-B725-428F-A828-B5E59CA40A82}|..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\MDBDashboard.csproj|c:\\erwingulfo\\tecno_factory\\mdbdashboard-master\\mdbdashboard-master\\mdbdashboard\\controllers\\comicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02AB1FA1-B725-428F-A828-B5E59CA40A82}|..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\MDBDashboard.csproj|c:\\erwingulfo\\tecno_factory\\mdbdashboard-master\\mdbdashboard-master\\mdbdashboard\\clases\\marvelapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02AB1FA1-B725-428F-A828-B5E59CA40A82}|..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\MDBDashboard.csproj|c:\\erwingulfo\\tecno_factory\\mdbdashboard-master\\mdbdashboard-master\\mdbdashboard\\clases\\comic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02AB1FA1-B725-428F-A828-B5E59CA40A82}|..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\MDBDashboard.csproj|c:\\erwingulfo\\tecno_factory\\mdbdashboard-master\\mdbdashboard-master\\mdbdashboard\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02AB1FA1-B725-428F-A828-B5E59CA40A82}|..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\MDBDashboard.csproj|c:\\erwingulfo\\tecno_factory\\mdbdashboard-master\\mdbdashboard-master\\mdbdashboard\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02AB1FA1-B725-428F-A828-B5E59CA40A82}|..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\MDBDashboard.csproj|c:\\erwingulfo\\tecno_factory\\mdbdashboard-master\\mdbdashboard-master\\mdbdashboard\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|c:\\erwingulfo\\tecno_factory\\webapi\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|solutionrelative:controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02AB1FA1-B725-428F-A828-B5E59CA40A82}|..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\MDBDashboard.csproj|c:\\erwingulfo\\tecno_factory\\mdbdashboard-master\\mdbdashboard-master\\mdbdashboard\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02AB1FA1-B725-428F-A828-B5E59CA40A82}|..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\MDBDashboard.csproj|c:\\erwingulfo\\tecno_factory\\mdbdashboard-master\\mdbdashboard-master\\mdbdashboard\\views\\shared\\_login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|c:\\erwingulfo\\tecno_factory\\webapi\\models\\comicsdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|solutionrelative:models\\comicsdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|c:\\erwingulfo\\tecno_factory\\webapi\\controllers\\comicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|solutionrelative:controllers\\comicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB1FA1-B725-428F-A828-B5E59CA40A82}|..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\MDBDashboard.csproj|c:\\erwingulfo\\tecno_factory\\mdbdashboard-master\\mdbdashboard-master\\mdbdashboard\\views\\comics\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB1FA1-B725-428F-A828-B5E59CA40A82}|..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\MDBDashboard.csproj|c:\\erwingulfo\\tecno_factory\\mdbdashboard-master\\mdbdashboard-master\\mdbdashboard\\controllers\\comicsfavoritescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB1FA1-B725-428F-A828-B5E59CA40A82}|..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\MDBDashboard.csproj|c:\\erwingulfo\\tecno_factory\\mdbdashboard-master\\mdbdashboard-master\\mdbdashboard\\views\\comicsfavorites\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB1FA1-B725-428F-A828-B5E59CA40A82}|..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\MDBDashboard.csproj|c:\\erwingulfo\\tecno_factory\\mdbdashboard-master\\mdbdashboard-master\\mdbdashboard\\views\\comics\\favoritecomics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|c:\\erwingulfo\\tecno_factory\\webapi\\comics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|solutionrelative:comics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB1FA1-B725-428F-A828-B5E59CA40A82}|..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\MDBDashboard.csproj|c:\\erwingulfo\\tecno_factory\\mdbdashboard-master\\mdbdashboard-master\\mdbdashboard\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02AB1FA1-B725-428F-A828-B5E59CA40A82}|..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\MDBDashboard.csproj|c:\\erwingulfo\\tecno_factory\\mdbdashboard-master\\mdbdashboard-master\\mdbdashboard\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB1FA1-B725-428F-A828-B5E59CA40A82}|..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\MDBDashboard.csproj|c:\\erwingulfo\\tecno_factory\\mdbdashboard-master\\mdbdashboard-master\\mdbdashboard\\views\\shared\\_login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB1FA1-B725-428F-A828-B5E59CA40A82}|..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\MDBDashboard.csproj|c:\\erwingulfo\\tecno_factory\\mdbdashboard-master\\mdbdashboard-master\\mdbdashboard\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB1FA1-B725-428F-A828-B5E59CA40A82}|..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\MDBDashboard.csproj|c:\\erwingulfo\\tecno_factory\\mdbdashboard-master\\mdbdashboard-master\\mdbdashboard\\views\\login\\_login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB1FA1-B725-428F-A828-B5E59CA40A82}|..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\MDBDashboard.csproj|c:\\erwingulfo\\tecno_factory\\mdbdashboard-master\\mdbdashboard-master\\mdbdashboard\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|c:\\erwingulfo\\tecno_factory\\webapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|c:\\erwingulfo\\tecno_factory\\webapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|c:\\erwingulfo\\tecno_factory\\webapi\\models\\usuariosdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|solutionrelative:models\\usuariosdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02AB1FA1-B725-428F-A828-B5E59CA40A82}|..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\MDBDashboard.csproj|c:\\erwingulfo\\tecno_factory\\mdbdashboard-master\\mdbdashboard-master\\mdbdashboard\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB1FA1-B725-428F-A828-B5E59CA40A82}|..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\MDBDashboard.csproj|c:\\erwingulfo\\tecno_factory\\mdbdashboard-master\\mdbdashboard-master\\mdbdashboard\\clases\\marvelapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|c:\\erwingulfo\\tecno_factory\\webapi\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C518A6C8-0D89-45AA-9784-F4FBD5BFD14A}|WebApi.csproj|solutionrelative:controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02AB1FA1-B725-428F-A828-B5E59CA40A82}|..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\MDBDashboard.csproj|c:\\erwingulfo\\tecno_factory\\mdbdashboard-master\\mdbdashboard-master\\mdbdashboard\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -62,7 +83,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,85 +91,254 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ComicsFavoritesController.cs",
+              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\ComicsFavoritesController.cs",
+              "RelativeDocumentMoniker": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\ComicsFavoritesController.cs",
+              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\ComicsFavoritesController.cs",
+              "RelativeToolTip": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\ComicsFavoritesController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAmwDoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T20:55:04.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Comic.cs",
-              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Clases\\Comic.cs",
-              "RelativeDocumentMoniker": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Clases\\Comic.cs",
-              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Clases\\Comic.cs",
-              "RelativeToolTip": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Clases\\Comic.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T00:27:07.013Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T19:18:04.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAIoAAAAAAAAAAAAAAF0AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-22T15:55:05.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Comics\\Index.cshtml",
               "RelativeDocumentMoniker": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Comics\\Index.cshtml",
               "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Comics\\Index.cshtml",
               "RelativeToolTip": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Comics\\Index.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAcwCMAAABFAAAA",
+              "ViewState": "AQIAADsAAAAAAAAAAAAEwEYAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-22T21:41:08.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ComicsController.cs",
               "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\ComicsController.cs",
               "RelativeDocumentMoniker": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\ComicsController.cs",
               "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\ComicsController.cs",
               "RelativeToolTip": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\ComicsController.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAmwC4AAAAiAAAA",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAmwIEAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-22T21:42:30.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Web.config",
-              "RelativeDocumentMoniker": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Web.config",
-              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Web.config",
-              "RelativeToolTip": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Web.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-07-22T23:28:11.295Z",
+              "DocumentIndex": 3,
+              "Title": "ComicsController.cs",
+              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\WebApi\\Controllers\\ComicsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ComicsController.cs",
+              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\WebApi\\Controllers\\ComicsController.cs",
+              "RelativeToolTip": "Controllers\\ComicsController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAiwCcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T15:25:18.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FavoriteComics.cshtml",
+              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Comics\\FavoriteComics.cshtml",
+              "RelativeDocumentMoniker": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Comics\\FavoriteComics.cshtml",
+              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Comics\\FavoriteComics.cshtml",
+              "RelativeToolTip": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Comics\\FavoriteComics.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T20:44:55.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ComicsDB.cs",
+              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\WebApi\\Models\\ComicsDB.cs",
+              "RelativeDocumentMoniker": "Models\\ComicsDB.cs",
+              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\WebApi\\Models\\ComicsDB.cs",
+              "RelativeToolTip": "Models\\ComicsDB.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA6wB8AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T15:08:01.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAgwGQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T16:09:14.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\ComicsFavorites\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\ComicsFavorites\\Index.cshtml",
+              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\ComicsFavorites\\Index.cshtml",
+              "RelativeToolTip": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\ComicsFavorites\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAB7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T22:08:29.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAAHQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T15:55:05.123Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Comics.cs",
+              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\WebApi\\Comics.cs",
+              "RelativeDocumentMoniker": "Comics.cs",
+              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\WebApi\\Comics.cs",
+              "RelativeToolTip": "Comics.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T15:10:33.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T20:54:11.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Login.cshtml",
+              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Shared\\_Login.cshtml",
+              "RelativeDocumentMoniker": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Shared\\_Login.cshtml",
+              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Shared\\_Login.cshtml",
+              "RelativeToolTip": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Shared\\_Login.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAJwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T12:58:06.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T19:18:04.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T19:59:45.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Login.cshtml",
+              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Login\\_Login.cshtml",
+              "RelativeDocumentMoniker": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Login\\_Login.cshtml",
+              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Login\\_Login.cshtml",
+              "RelativeToolTip": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Login\\_Login.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T19:59:48.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\WebApi\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\WebApi\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwCoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T16:09:01.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAqwC4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T20:09:46.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\WebApi\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\WebApi\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAIAwwCoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T15:39:44.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MarvelAPI.cs",
+              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Clases\\MarvelAPI.cs",
+              "RelativeDocumentMoniker": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Clases\\MarvelAPI.cs",
+              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Clases\\MarvelAPI.cs",
+              "RelativeToolTip": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Clases\\MarvelAPI.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAB0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T22:29:08.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "TokenController.cs",
               "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\WebApi\\Controllers\\TokenController.cs",
               "RelativeDocumentMoniker": "Controllers\\TokenController.cs",
@@ -161,98 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_Login.cshtml",
-              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Shared\\_Login.cshtml",
-              "RelativeDocumentMoniker": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Shared\\_Login.cshtml",
-              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Shared\\_Login.cshtml",
-              "RelativeToolTip": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Shared\\_Login.cshtml",
-              "ViewState": "AQIAAIcAAAAAAAAAAAAowJwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-22T12:58:06.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MarvelAPI.cs",
-              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Clases\\MarvelAPI.cs",
-              "RelativeDocumentMoniker": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Clases\\MarvelAPI.cs",
-              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Clases\\MarvelAPI.cs",
-              "RelativeToolTip": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Clases\\MarvelAPI.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAYwBoAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T22:29:08.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\UsuariosController.cs",
-              "ViewState": "AQIAAFgAAAAAAAAAAAAewD0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T20:09:46.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAADwv2IAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T21:56:48.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-22T22:01:01.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UsuariosDB.cs",
-              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\WebApi\\Models\\UsuariosDB.cs",
-              "RelativeDocumentMoniker": "Models\\UsuariosDB.cs",
-              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\WebApi\\Models\\UsuariosDB.cs",
-              "RelativeToolTip": "Models\\UsuariosDB.cs",
-              "ViewState": "AQIAANwAAAAAAAAAAAD4v+UAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T15:39:44.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\WebApi\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\ErwinGulfo\\tecno_factory\\WebApi\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "Controllers\\UsuariosController.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAMwCoAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T15:39:44.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "WebApi",
               "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\WebApi\\WebApi.csproj",
               "RelativeDocumentMoniker": "WebApi.csproj",
@@ -264,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "RouteConfig.cs",
               "DocumentMoniker": "C:\\ErwinGulfo\\tecno_factory\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "..\\MDBDashboard-master\\MDBDashboard-master\\MDBDashboard\\App_Start\\RouteConfig.cs",

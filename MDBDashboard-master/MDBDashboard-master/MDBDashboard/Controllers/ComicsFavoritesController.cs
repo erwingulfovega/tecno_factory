@@ -1,7 +1,9 @@
 ﻿using MDBinASP.NET.Clases;
 using Newtonsoft.Json;
 using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Net.Http;
 using System.Security.Cryptography;
@@ -11,18 +13,18 @@ using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 using static MDBinASP.NET.Clases.MarvelAPI;
-using static MDBinASP.NET.Controllers.ComicsController;
 
 namespace MDBinASP.NET.Controllers
 {
-    public class ComicsController : Controller
+    public class ComicsFavoritesController : Controller
     {
 
         private static readonly HttpClient client = new HttpClient();
         public async Task<ActionResult> Index()
         {
 
-            ViewBag.Message = "Comics y Series Marvel";
+            var result = MiListaComics(Convert.ToInt32(Session["idusuario"]));
+            ViewBag.Message = "Mis Comics Favoritos";
             ViewBag.IdUsuario = Session["idusuario"];
             
             if (Session["username"] != string.Empty && Session["username"] != null)
@@ -51,12 +53,10 @@ namespace MDBinASP.NET.Controllers
 
                         // Access comics data
                         var comics = rootObject.Data.Results;
-                        var result = ComicsFavoritesController.MiListaComics(Convert.ToInt32(Session["idusuario"]));
                         var idComicsToFilter = result.Select(item => item.IdComics).Distinct().ToList();
-                        ViewBag.ComicsList = comics;
-                        ViewBag.FavoriteList = idComicsToFilter;
+                        var filteredComics = comics.Where(comic => idComicsToFilter.Contains(comic.Id)).ToList();
                         // Pass the list of comics to the view
-                        return View();
+                        return View("Index", filteredComics);
                     }
                     else
                     {
@@ -114,92 +114,47 @@ namespace MDBinASP.NET.Controllers
             
         }
 
-        public ActionResult MarcarComoFavorito(int IdComics, int IdUsuario)
+        public class ComicsResponse
         {
-
-            ViewBag.Message = "Mis Comics Favoritos";
-
-            if (Session["username"] != string.Empty && Session["username"] != null)
-            {
-                var idusuario = Convert.ToInt32(Session["idusuario"]);
-                var resultado = InsertarComicsFavoritos(IdComics, IdUsuario);
-                if (resultado.isSuccess)
-                {
-                    var session = HttpContext.Session;
-                    var datos = JsonConvert.DeserializeObject<JsonUser>(resultado.objectResp.ToString());
-                    return RedirectToAction("Index", "ComicsFavorites");
-                }
-                {
-                    HttpContext.Session.Remove("username");
-                    HttpContext.Session.Remove("nombres");
-                    return RedirectToAction("Error", "Usuarios");
-                }
-            }
-            else
-            {
-                return RedirectToAction("Index", "Login");
-            }
-
+          public List<ComicsFavoritos> Comics { get; set; } // Assuming a "Comics" property with a list
         }
 
-        public ActionResult MisComics()
-        {
-            var idusuario = Convert.ToInt32(Session["idusuario"]);
-            var resultado = MiListaComics(idusuario);
-            if (resultado.isSuccess)
-            {
-                var session = HttpContext.Session;
-                var datos = JsonConvert.DeserializeObject<ComicsFavoritos>(resultado.objectResp.ToString());
-                return View("FavoriteComics",datos);
-            }
-            {
-                HttpContext.Session.Remove("username");
-                HttpContext.Session.Remove("nombres");
-                return RedirectToAction("Error", "Usuarios");
-            }
-        }
-
-        public static RespuestaAPI MiListaComics(int id_usuario)
+        public static List<ComicsFavoritos> MiListaComics(int idusuario)
         {
 
-            var respuestaAPI = new RespuestaAPI();
+            List<ComicsFavoritos> lista = new List<ComicsFavoritos>();
 
-            ComicsFavorites comics = new ComicsFavorites();
+            try
+            {
+                var requestMessage = ApiConection.GetHttpRequestMessage(HttpMethod.Get, string.Format("Comics/{0}", idusuario));
+                var task = Task.Run(() => client.SendAsync(requestMessage));
+                task.Wait();
+                var response = task.Result;
+                if (response.IsSuccessStatusCode)
+                {
+                    var taskResp = Task.Run(() => response.Content.ReadAsStringAsync());
+                    taskResp.Wait();
 
-            if (id_usuario != 0)
+                    // Deserialize based on actual response structure
+                    if (taskResp.IsCompleted) // Check if simple array
+                    {
+                        lista = JsonConvert.DeserializeObject<List<ComicsFavoritos>>(taskResp.Result);
+                        return lista;
+                    }
+                    else // Assume nested structure
+                    {
+                        var listaResponse = JsonConvert.DeserializeObject<ComicsResponse>(taskResp.Result);
+                        return listaResponse.Comics; // Return nested list
+                    }
+                }
+            }
+            catch (Exception exception)
             {
 
-                try
-                {
-                    comics.IdUsuario = id_usuario;
-
-                    var requestMessage = ApiConection.GetHttpRequestMessage(HttpMethod.Get, "Comics");
-                    requestMessage.Content =
-                        new StringContent(JsonConvert.SerializeObject(comics), Encoding.UTF8, "application/json");
-                    var task = Task.Run(() => client.SendAsync(requestMessage));
-                    task.Wait();
-                    var response = task.Result;
-                    if (response.IsSuccessStatusCode)
-                    {
-                        var taskResp = Task.Run(() => response.Content.ReadAsStringAsync());
-                        taskResp.Wait();
-                        respuestaAPI = JsonConvert.DeserializeObject<RespuestaAPI>(taskResp.Result);
-                        return respuestaAPI;
-                    }
-                    else
-                    {
-                        return respuestaAPI;
-                    }
-
-                }
-                catch (Exception exception)
-                {
-                    Console.WriteLine(exception.Message);
-                    return respuestaAPI;
-                }
-
+                throw;
             }
-            return respuestaAPI;
+
+            return lista;
         }
 
         public static RespuestaAPI InsertarComicsFavoritos(int id_comic, int id_usuario)

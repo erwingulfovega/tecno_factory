@@ -6,17 +6,9 @@ using System.Text;
 
 namespace MDBinASP.NET.Clases
 {
-    public class Comic
+    public class ComicsFavoritos
     {
         public int Id { get; set; }
-        public string Title { get; set; }
-        public string Description { get; set; }
-        public string ThumbnailUrl { get; set; }
-        public string ResourceUri { get; set; }
-    }
-
-    public class ComicsFavorites
-    {
         public int IdComics { get; set; }
         public int IdUsuario { get; set; }
 
