@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using WebApi.Db;
 using WebApi.Models;
 
@@ -48,9 +49,12 @@ namespace WebApi.Controllers
 
                 var insertedID = query.Insert(body);
 
+                var result = query.GetId(insertedID);
+
                 respuestaAPI.isSuccess = true;
                 respuestaAPI.id = insertedID;
                 respuestaAPI.message = "Datos Guardados!";
+                respuestaAPI.objectResp = JsonConvert.SerializeObject(result);
 
                 return new OkObjectResult(respuestaAPI);
             }
@@ -59,6 +63,7 @@ namespace WebApi.Controllers
                 respuestaAPI.isSuccess = false;
                 respuestaAPI.id = 0;
                 respuestaAPI.message = "Error al Guardar los datos - "+ex;
+                respuestaAPI.objectResp = null;
                 return new BadRequestObjectResult(respuestaAPI);
             }
         }

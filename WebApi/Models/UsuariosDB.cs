@@ -163,6 +163,43 @@ namespace WebApi.Models
 
         }
 
+        public Usuarios GetUserByUserName(string Nombre_Usuario)
+        {
+
+            var result = new List<Usuarios>();
+
+            try
+            {
+                using var cmd = db.Connection.CreateCommand();
+                var sql = string.Format("SELECT id," + Environment.NewLine +
+                          "documento_identidad," + Environment.NewLine +
+                          "nombres," + Environment.NewLine +
+                          "apellidos," + Environment.NewLine +
+                          "email," +
+                          "nombre_usuario," + Environment.NewLine +
+                          "clave " + Environment.NewLine +
+                          "FROM usuarios where nombre_usuario='{0}'", Nombre_Usuario);
+                cmd.CommandText = sql;
+                cmd.CommandType = CommandType.Text;
+
+                result = LoadList(cmd.ExecuteReader());
+
+                if (result.Count > 1)
+                {
+                    throw new Exception("Hay más de un usuario con el mismo documento de identidad");
+                }
+                else
+                {
+                    return result[0];
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al listar los usuarios " + ex.Source);
+            }
+
+        }
+
         public IEnumerable<Usuarios> GetUsuarios()
         {
             var result = new List<Usuarios>();
@@ -205,7 +242,6 @@ namespace WebApi.Models
                                    " VALUES (@documento_identidad," +
                                    "@nombres," +
                                    "@apellidos," +
-                                   "@nombre_usuario," +
                                    "@email," +
                                    "@nombre_usuario," +
                                    "@clave);");

@@ -47,6 +47,13 @@ C:\ErwinGulfo\TecnoFactory\WebApi\bin\Debug\net8.0\runtimes\win-x64\native\k5spr
 C:\ErwinGulfo\TecnoFactory\WebApi\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
 C:\ErwinGulfo\TecnoFactory\WebApi\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
 C:\ErwinGulfo\TecnoFactory\WebApi\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\ErwinGulfo\tecno_factory\WebApi\bin\Debug\net8.0\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\csc.exe.config
+C:\ErwinGulfo\tecno_factory\WebApi\bin\Debug\net8.0\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\vbc.exe.config
+C:\ErwinGulfo\tecno_factory\WebApi\bin\Debug\net8.0\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\VBCSCompiler.exe.config
+C:\ErwinGulfo\tecno_factory\WebApi\bin\Debug\net8.0\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\csc.exe.config
+C:\ErwinGulfo\tecno_factory\WebApi\bin\Debug\net8.0\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\csi.exe.config
+C:\ErwinGulfo\tecno_factory\WebApi\bin\Debug\net8.0\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\vbc.exe.config
+C:\ErwinGulfo\tecno_factory\WebApi\bin\Debug\net8.0\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\VBCSCompiler.exe.config
 C:\ErwinGulfo\tecno_factory\WebApi\bin\Debug\net8.0\appsettings.Development.json
 C:\ErwinGulfo\tecno_factory\WebApi\bin\Debug\net8.0\appsettings.json
 C:\ErwinGulfo\tecno_factory\WebApi\bin\Debug\net8.0\WebApi.exe
@@ -97,3 +104,4 @@ C:\ErwinGulfo\tecno_factory\WebApi\obj\Debug\net8.0\refint\WebApi.dll
 C:\ErwinGulfo\tecno_factory\WebApi\obj\Debug\net8.0\WebApi.pdb
 C:\ErwinGulfo\tecno_factory\WebApi\obj\Debug\net8.0\WebApi.genruntimeconfig.cache
 C:\ErwinGulfo\tecno_factory\WebApi\obj\Debug\net8.0\ref\WebApi.dll
+C:\ErwinGulfo\tecno_factory\WebApi\bin\Debug\net8.0\Newtonsoft.Json.dll

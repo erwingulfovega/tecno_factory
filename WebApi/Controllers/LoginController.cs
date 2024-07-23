@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using WebApi.Db;
 using WebApi.Models;
 
@@ -19,24 +20,38 @@ namespace WebApi.Controllers
         public IActionResult Post([FromBody] Login body)
         {
             var respuestaAPI = new RespuestaAPI();
+            string jsonString = string.Empty;
             try
             {
                 Db.Connection.Open();
+                
                 var query = new LoginDB(Db);
-
                 var status = query.Login(body);
 
-                if (status)
+                var usuario = new UsuariosDB(Db);
+                Usuarios usuarios = new Usuarios();
+                var ObtenerUsuario = usuario.GetUserByUserName(body.Nombre_Usuario);
+                usuarios.Nombre_Usuario = ObtenerUsuario.Nombre_Usuario;
+                usuarios.DocumentoIdentidad = ObtenerUsuario.DocumentoIdentidad;
+                usuarios.Nombres = ObtenerUsuario.Nombres;
+                usuarios.Email=ObtenerUsuario.Email;
+                jsonString = JsonConvert.SerializeObject(usuarios);
+
+                if (status && ObtenerUsuario!=null && jsonString!=string.Empty)
                 {
                     respuestaAPI.isSuccess = true;
                     respuestaAPI.message = "Login correcto!";
+                    respuestaAPI.CodigoResultado = 200;
+                    respuestaAPI.objectResp = jsonString;
                     return new OkObjectResult(respuestaAPI);
                 }
                 else
                 {
                     respuestaAPI.isSuccess = true;
                     respuestaAPI.message = "Login incorrecto!";
-                    return new OkObjectResult(respuestaAPI);
+                    respuestaAPI.CodigoResultado = 400;
+                    respuestaAPI.objectResp = jsonString;
+                    return new BadRequestObjectResult(respuestaAPI);
                 }
                 
             }
@@ -45,6 +60,7 @@ namespace WebApi.Controllers
                 respuestaAPI.isSuccess = false;
                 respuestaAPI.id = 0;
                 respuestaAPI.message = "Error al Guardar los datos - "+ex;
+                respuestaAPI.objectResp = jsonString;
                 return new BadRequestObjectResult(respuestaAPI);
             }
         }

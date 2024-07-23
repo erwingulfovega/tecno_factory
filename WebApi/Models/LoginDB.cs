@@ -24,11 +24,11 @@ namespace WebApi.Models
             var usuarios = new UsuariosDB(db);
             try
             {
-                if (login.Usuario!=string.Empty && login.Password!=string.Empty)
+                if (login.Nombre_Usuario!=string.Empty && login.Clave!=string.Empty)
                 {
 
-                    string storedHashedPassword = usuarios.GetPasswordUserName(login.Usuario); // Retrieve stored hash
-                    string providedPassword = login.Password; // Get user input password
+                    string storedHashedPassword = usuarios.GetPasswordUserName(login.Nombre_Usuario); // Retrieve stored hash
+                    string providedPassword = login.Clave; // Get user input password
                     string newHash = HashPasswordWithSHA256(providedPassword); // Hash provided password
 
                     bool passwordsMatch = storedHashedPassword == newHash; // Compare hashes
@@ -58,13 +58,13 @@ namespace WebApi.Models
             {
                 ParameterName = "@usuario",
                 DbType = DbType.String,
-                Value = login.Usuario,
+                Value = login.Nombre_Usuario,
             });
             cmd.Parameters.Add(new MySqlParameter
             {
                 ParameterName = "@clave",
                 DbType = DbType.String,
-                Value = login.Password,
+                Value = login.Clave,
             });
 
         }
