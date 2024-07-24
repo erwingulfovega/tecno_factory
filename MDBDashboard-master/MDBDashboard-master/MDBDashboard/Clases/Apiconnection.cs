@@ -12,7 +12,7 @@ namespace MDBinASP
         public static HttpRequestMessage GetHttpRequestMessage(HttpMethod tipo, string action)
         {
             var urlAPI = string.Empty;
-            urlAPI = System.Configuration.ConfigurationManager.AppSettings["endpoint"];
+            urlAPI = System.Configuration.ConfigurationManager.AppSettings["url_webapi"];
                         
             try
             {
